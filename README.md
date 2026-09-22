@@ -159,7 +159,7 @@ If you ask me about this project in an interview, here is how I approach systems
 
 I am actively looking for full-time roles in **AI Engineering, Software Development, Systems, Networking, and Cybersecurity**. Let's connect!
 
-* **Email**: your.email@example.com
+* **Email**: iamhannanshahid@gmail.com
 * **LinkedIn**: [linkedin.com/in/your-profile](https://linkedin.com)
 * **GitHub**: [github.com/your-username](https://github.com)
 
