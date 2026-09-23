@@ -148,7 +148,7 @@ npm run dev
 
 ## 🧠 QNA (About This Project)
 
-### 1. Why did I build System Sentinel Platform?
+### 1. Why did I build AI-PC-DIAGNOSIS-SYSTEM-PY-BASED-BACKEND-PROJECT?
 
 I built System Sentinel Platform to explore how AI, system telemetry, networking, and IT service management can be combined into a single full-stack application.
 
