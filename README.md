@@ -146,12 +146,98 @@ npm run dev
 
 ---
 
-## 💡 Interviewer Cheat Sheet (Why Hire Me?)
+## 🧠 QNA (About This Project)
 
-If you ask me about this project in an interview, here is how I approach systems engineering:
-1. **System Resilience**: *"I designed the networking layer with an exponential backoff state machine so that if the FastAPI backend drops, the UI gracefully falls back to polling without crashing."*
-2. **AI Integration**: *"Instead of a toy chatbot, I used Google Gemini to parse raw `psutil` system metrics and deliver structured JSON diagnostic playbooks that save IT technicians hours of manual log analysis."*
-3. **Clean Architecture**: *"I enforced the Strategy Pattern for data providers and built SentinelDB on IndexedDB for offline-first reliability, proving my commitment to robust software design principles."*
+### 1. Why did I build System Sentinel Platform?
+
+I built System Sentinel Platform to explore how AI, system telemetry, networking, and IT service management can be combined into a single full-stack application.
+
+The goal was to create more than a conventional dashboard by connecting low-level system information with automated diagnostics, repair workflows, hardware compatibility logic, and real-time communication.
+
+### 2. Why did I use Python and FastAPI for the backend?
+
+I used Python with FastAPI because the project requires asynchronous API handling, real-time WebSocket communication, system-level telemetry, and integration with AI services.
+
+FastAPI also provides a clean structure for separating telemetry endpoints, diagnostic services, authentication, and other backend responsibilities.
+
+### 3. How does the AI diagnostic system work?
+
+I designed the diagnostic layer to collect system information such as performance anomalies, thermal information, and error-related data, then pass structured information to the Google Gemini AI integration.
+
+The AI response can be structured into diagnostic information and recommended remediation steps so that the output is more useful than a simple conversational response.
+
+### 4. Why did I use WebSockets?
+
+I used WebSockets for continuous telemetry because system-monitoring data can require frequent updates.
+
+Instead of repeatedly creating independent requests for every telemetry update, the WebSocket connection provides a persistent communication channel between the frontend and backend.
+
+### 5. What happens if the WebSocket connection fails?
+
+I designed the communication layer with a fallback approach.
+
+If the WebSocket connection becomes unavailable, the frontend can switch to REST-based polling. The reconnection logic uses progressively increasing delays so the application does not repeatedly attempt connections at the same frequency during a backend or network failure.
+
+### 6. Why did I use the Strategy Design Pattern?
+
+I used the Strategy Pattern to separate the telemetry/data-provider implementations.
+
+This allows the application to work with different providers, such as:
+
+- `PythonProvider`
+- `DiagnosticProvider`
+- `MockProvider`
+- WebSocket-based communication
+
+This makes the frontend less dependent on one specific data source.
+
+### 7. Why did I use IndexedDB?
+
+I used IndexedDB through the `SentinelDB` persistence layer to store application data locally in the browser.
+
+This provides client-side persistence and allows the application to retain relevant data between browser sessions while reducing dependence on continuous server communication for locally stored information.
+
+### 8. How does the PC hardware compatibility engine work?
+
+I designed the Advanced PC Builder Intelligence Engine (APCIE) as a deterministic rule-based system.
+
+It evaluates hardware relationships such as:
+
+- CPU socket compatibility
+- AM4 / AM5 / LGA1700 platform matching
+- DDR4 / DDR5 memory compatibility
+- Chassis form-factor constraints
+- Power and TDP considerations
+
+The purpose is to apply explicit compatibility rules rather than relying on an AI model for deterministic hardware decisions.
+
+### 9. How is cybersecurity and access control handled?
+
+The project includes system-integrity and IT-operations concepts alongside role-based access control.
+
+The application separates user capabilities through RBAC and provides a structured service-desk workflow for managing operational requests.
+
+### 10. What software-engineering concepts does this project demonstrate?
+
+This project demonstrates:
+
+- Full-stack application architecture
+- Python FastAPI backend development
+- React and TypeScript frontend development
+- REST API design
+- WebSocket communication
+- Fault-tolerant communication patterns
+- Strategy Design Pattern
+- Offline-first persistence
+- System telemetry
+- AI API integration
+- Hardware compatibility rules
+- Role-based access control
+- IT service-management workflows
+
+### 11. What would I improve for a production deployment?
+
+For a larger production deployment, I would add comprehensive automated testing, centralized logging and monitoring, stronger secrets management, production-grade deployment infrastructure, more extensive authorization controls, formal observability, and additional validation around system-level telemetry and hardware detection.
 
 ---
 </div>
