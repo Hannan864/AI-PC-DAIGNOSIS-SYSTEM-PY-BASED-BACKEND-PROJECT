@@ -158,12 +158,17 @@ If you ask me about this project in an interview, here is how I approach systems
 ## 📬 Contact & Hire Me
 
 I am actively looking for full-time roles in **AI Engineering, Software Development, Systems, Networking, and Cybersecurity**. Let's connect!
-
-* **Email**: iamhannanshahid@gmail.com
-* **LinkedIn**: [linkedin.com/in/your-profile](https://linkedin.com)
-* **GitHub**: [github.com/your-username](https://github.com)
-
+- **Name:** Abdul Hannan
+- **Email:** [iamhannanshahid@gmail.com](mailto:iamhannanshahid@gmail.com)
+- **GitHub:** [github.com/Hannan864](https://github.com/Hannan864)
+- **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
 ---
-<p align="center">
-  <b>Thank you for reviewing my portfolio project. I look forward to contributing to your engineering team!</b>
-</p>
+<div align="center">
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+**Engineered with architectural discipline, high-throughput reliability, and autonomous intelligence.**
+
+© 2026 AIITS Project • International Islamic University Islamabad
+
+</div>
