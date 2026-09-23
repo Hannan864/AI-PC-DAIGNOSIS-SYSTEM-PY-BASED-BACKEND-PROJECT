@@ -154,7 +154,7 @@ If you ask me about this project in an interview, here is how I approach systems
 3. **Clean Architecture**: *"I enforced the Strategy Pattern for data providers and built SentinelDB on IndexedDB for offline-first reliability, proving my commitment to robust software design principles."*
 
 ---
-
+</div>
 ## 📬 Contact & Hire Me
 
 I am actively looking for full-time roles in **AI Engineering, Software Development, Systems, Networking, and Cybersecurity**. Let's connect!
