@@ -26,7 +26,7 @@
 </p>
 
 ---
-
+</div>
 ## 💼 Candidate Overview & Project Purpose
 
 **System Sentinel Platform (SSP)** is a production-grade, full-stack enterprise operations platform. It was architected and built from scratch to demonstrate mastery across **Artificial Intelligence, Networking, Systems Programming, Software Engineering, and Cybersecurity**. 
